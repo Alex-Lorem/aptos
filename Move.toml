@@ -1,0 +1,10 @@
+[package]
+name = 'GooberGoblins'
+version = '1.0.0'
+[dependencies]
+AptosFramework = { local = "../aptos-core/aptos-move/framework/aptos-framework" }
+AptosToken = { local = "../aptos-core/aptos-move/framework/aptos-token" }
+
+[addresses]
+nft="0d1e465f4ea0eab5c4b5ad979b73e261a718761fb35040352de6e6875e75c8e5"
+
